@@ -2,14 +2,21 @@
 
 ## Deployment
 
-This project is configured to deploy to GitHub Pages. Follow these steps:
+This project is configured to deploy to GitHub Pages automatically via GitHub Actions.
 
-1. Ensure all changes are committed to the `main` branch.
-2. Run the following command to deploy:
+### Automatic deployment
 
-   ```bash
-   npm run deploy
-   ```
+Every push to `main` triggers `.github/workflows/deploy.yml`, which builds and publishes the site.
 
-The site will be published to the `gh-pages` branch and available at:
-`https://<your-username>.github.io/mariaflores-main/`
+### Manual deployment (fallback)
+
+If needed, you can still publish manually:
+
+```bash
+npm run deploy
+```
+
+### URL
+
+The site is available at:
+`https://exilium-informatica.github.io/mariaflores/`
