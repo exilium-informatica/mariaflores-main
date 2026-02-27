@@ -1,3 +1,5 @@
+import heroImage640 from "@/assets/hero-image-640.jpg";
+import heroImage960 from "@/assets/hero-image-960.jpg";
 import heroImage from "@/assets/hero-image.jpg";
 
 const HeroSection = () => {
@@ -6,9 +8,15 @@ const HeroSection = () => {
       <div className="absolute inset-0">
         <img
           src={heroImage}
+          srcSet={`${heroImage640} 640w, ${heroImage960} 960w, ${heroImage} 1920w`}
+          sizes="100vw"
           alt="Arranjo de suculentas, cestas de café da manhã e lembrancinhas florais  da Maria Flores"
           className="w-full h-full object-cover"
           loading="eager"
+          fetchPriority="high"
+          decoding="async"
+          width={1920}
+          height={1080}
         />
         <div className="absolute inset-0 bg-foreground/40" />
       </div>
