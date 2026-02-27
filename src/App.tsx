@@ -1,10 +1,5 @@
-import { HelmetProvider } from "react-helmet-async";
 import Index from "./pages/Index";
 
-const App = () => (
-  <HelmetProvider>
-    <Index />
-  </HelmetProvider>
-);
+const App = () => <Index />;
 
 export default App;
