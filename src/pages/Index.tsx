@@ -24,7 +24,7 @@ const jsonLd = {
     addressRegion: "SP",
     addressCountry: "BR",
   },
-  sameAs: ["https://www.instagram.com/maria.d.barbosa/"],
+  sameAs: ["https://www.instagram.com/maria_d_flores/"],
 };
 
 const Index = () => {

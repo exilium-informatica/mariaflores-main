@@ -29,13 +29,13 @@ const ContactSection = () => {
           </a>
 
           <a
-            href="https://www.instagram.com/maria.d.barbosa/"
+            href="https://www.instagram.com/maria_d_flores/"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center justify-center gap-3 bg-card rounded-2xl p-5 hover:shadow-lg transition-all duration-300"
           >
             <Instagram className="w-5 h-5 text-primary" />
-            <span className="text-foreground font-body">@maria.d.barbosa</span>
+            <span className="text-foreground font-body">@maria_d_flores</span>
           </a>
 
           <div className="flex items-center justify-center gap-3 bg-card rounded-2xl p-5">
